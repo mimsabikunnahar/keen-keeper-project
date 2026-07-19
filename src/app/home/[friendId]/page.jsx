@@ -162,7 +162,7 @@ const FriendDetailPage = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
 
-            <button onClick={()=>handleTimeline("call")}
+            <button onClick={()=>handleTimeline("calling")}
               className="btn h-auto min-h-0 px-15 py-8 flex flex-col">
               <Image
                 src={call}
@@ -173,7 +173,7 @@ const FriendDetailPage = () => {
               <span>Call</span>
             </button>
 
-            <button onClick={() => handleTimeline("text")}
+            <button onClick={() => handleTimeline("texting")}
               className="btn h-auto min-h-0 px-15 py-8 flex flex-col">
               <Image
                 src={text}
@@ -184,7 +184,7 @@ const FriendDetailPage = () => {
               <span>Text</span>
             </button>
 
-            <button onClick={() => handleTimeline("video")}
+            <button onClick={() => handleTimeline("video calling")}
               className="btn h-auto min-h-0 px-15 py-8 flex flex-col">
               <Image
                 src={video}
