@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "David Kim",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 62,
+    "status": "almost_due",
+    "tags": [
+      "Work"
+    ],
+    "bio": "Software engineer and coffee lover.",
+    "goal": 30,
+    "next_due_date": "2026-07-25"
+  },
+  {
+    "id": 2,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": [
+      "Family"
+    ],
+    "bio": "My supportive cousin.",
+    "goal": 14,
+    "next_due_date": "2026-07-18"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "lisa@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": [
+      "Work"
+    ],
+    "bio": "UI/UX designer from Japan.",
+    "goal": 14,
+    "next_due_date": "2026-07-18"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": [
+      "Hobby",
+      "Travel"
+    ],
+    "bio": "Travel partner and photographer.",
+    "goal": 14,
+    "next_due_date": "2026-07-18"
+  },
+  {
+    "id": 5,
+    "name": "Sophia Brown",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 10,
+    "status": "on_track",
+    "tags": [
+      "College"
+    ],
+    "bio": "Friend from university.",
+    "goal": 30,
+    "next_due_date": "2026-08-05"
+  },
+  {
+    "id": 6,
+    "name": "Michael Scott",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 5,
+    "status": "on_track",
+    "tags": [
+      "Office"
+    ],
+    "bio": "Regional manager and mentor.",
+    "goal": 14,
+    "next_due_date": "2026-08-01"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Davis",
+    "picture": "https://randomuser.me/api/portraits/women/20.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 15,
+    "status": "almost_due",
+    "tags": [
+      "Gym"
+    ],
+    "bio": "Workout partner.",
+    "goal": 21,
+    "next_due_date": "2026-07-30"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Carter",
+    "picture": "https://randomuser.me/api/portraits/men/56.jpg",
+    "email": "ethan@example.com",
+    "days_since_contact": 8,
+    "status": "on_track",
+    "tags": [
+      "School"
+    ],
+    "bio": "Best friend since high school.",
+    "goal": 14,
+    "next_due_date": "2026-08-03"
+  },
+  {
+    "id": 9,
+    "name": "Ava Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "email": "ava@example.com",
+    "days_since_contact": 18,
+    "status": "almost_due",
+    "tags": [
+      "Travel"
+    ],
+    "bio": "Met during a backpacking trip.",
+    "goal": 21,
+    "next_due_date": "2026-07-28"
+  },
+  {
+    "id": 10,
+    "name": "Noah Anderson",
+    "picture": "https://randomuser.me/api/portraits/men/81.jpg",
+    "email": "noah@example.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": [
+      "Gaming"
+    ],
+    "bio": "Gaming buddy who loves strategy games.",
+    "goal": 30,
+    "next_due_date": "2026-07-15"
+  },
+  {
+    "id": 11,
+    "name": "Mia Thompson",
+    "picture": "https://randomuser.me/api/portraits/women/37.jpg",
+    "email": "mia@example.com",
+    "days_since_contact": 3,
+    "status": "on_track",
+    "tags": [
+      "Neighbor"
+    ],
+    "bio": "Friendly neighbor who enjoys gardening.",
+    "goal": 14,
+    "next_due_date": "2026-08-10"
+  },
+  {
+    "id": 12,
+    "name": "Lucas Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/64.jpg",
+    "email": "lucas@example.com",
+    "days_since_contact": 27,
+    "status": "almost_due",
+    "tags": [
+      "Football",
+      "Club"
+    ],
+    "bio": "Captain of our local football club.",
+    "goal": 30,
+    "next_due_date": "2026-07-26"
+  }
+]

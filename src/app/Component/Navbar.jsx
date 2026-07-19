@@ -26,7 +26,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="" >
+              <Link href="/timeline" >
                 <button onClick={() => setActive("timeline")}
                   className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "timeline" ? 'bg-[#244D3F] text-white' : ''}`}
@@ -34,7 +34,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/stats">
                  <button onClick={() => setActive("stats")}
             className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "stats" ? 'bg-[#244D3F] text-white' : ''}`}><MdOutlineQueryStats />Stats</button>
@@ -42,23 +42,23 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <h1 className='text-2xl font-bold'>Keen<span className='text-[#244D3F]'>Keeper</span></h1>
+        <h1 className='text-2xl font-bold '><span className='text-[#1F2937]'>Keen</span><span className='text-[#244D3F]'>Keeper</span></h1>
       </div>
       <div className="navbar-end hidden lg:flex gap-2">
-        <Link href="/" >
+        <Link href="/home" >
           <button onClick={() => setActive("home")}
             className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "home" ? 'bg-[#244D3F] text-white' : ''}`}><IoHomeOutline />Home</button>
         </Link>
 
-        <Link href="" >
+        <Link href="/timeline" >
           <button onClick={() => setActive("timeline")}
             className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "timeline" ? 'bg-[#244D3F] text-white' : ''}`}
            ><IoMdTimer />Timeline</button>
         </Link>
 
-        <Link href="">
+        <Link href="/stats">
           <button onClick={() => setActive("stats")}
             className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "stats" ? 'bg-[#244D3F] text-white' : ''}`}><MdOutlineQueryStats />Stats</button>

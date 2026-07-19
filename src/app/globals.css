@@ -1,3 +1,20 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+.grid-details {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 24px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
