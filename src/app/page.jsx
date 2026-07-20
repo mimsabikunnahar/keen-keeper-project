@@ -1,7 +1,10 @@
+
 import FriendCard from "./home/FriendCard";
 
 const Home = async () => {
-  const res = await fetch("http://localhost:3000/friend.json");
+  const res = await fetch("http://localhost:3000/friend.json", {
+    cache: "no-store"
+  });
   const friends = await res.json();
   return (
     <div>
@@ -27,7 +30,7 @@ const Home = async () => {
             <h2 className="text-2xl font-extrabold">6</h2>
             <p>Need Attention</p>
           </div>
-         <div className="rounded-2xl bg-white text-center p-5 text-[#64748B]">
+          <div className="rounded-2xl bg-white text-center p-5 text-[#64748B]">
             <h2 className="text-2xl font-extrabold">5</h2>
             <p>Interactions This Month</p>
           </div>
@@ -45,7 +48,7 @@ const Home = async () => {
       </div>
 
     </div>
-  
+
   );
 };
 
