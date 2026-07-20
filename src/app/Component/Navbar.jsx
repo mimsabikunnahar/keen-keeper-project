@@ -45,7 +45,7 @@ const Navbar = () => {
         <h1 className='text-2xl font-bold '><span className='text-[#1F2937]'>Keen</span><span className='text-[#244D3F]'>Keeper</span></h1>
       </div>
       <div className="navbar-end hidden lg:flex gap-2">
-        <Link href="/home" >
+        <Link href="/" >
           <button onClick={() => setActive("home")}
             className={`flex justify-between gap-0.5 rounded-2xl p-4 items-center text-[#64748B] font-bold
             ${active === "home" ? 'bg-[#244D3F] text-white' : ''}`}><IoHomeOutline />Home</button>

@@ -10,6 +10,7 @@ import { MdDeleteSweep } from "react-icons/md";
 import call from './../../../assets/call.png';
 import text from './../../../assets/text.png';
 import video from './../../../assets/video.png';
+import { toast, ToastContainer } from "react-toastify";
 
 const FriendDetailPage = () => {
   const { friendId } = useParams();
@@ -53,7 +54,7 @@ const FriendDetailPage = () => {
       action,
       date: new Date().toLocaleString(),
     };
-
+    toast.success(`${action} ${friend.name} successfully`);
     timeline.unshift(newEvent);
 
     localStorage.setItem("timeline", JSON.stringify(timeline));
@@ -200,7 +201,7 @@ const FriendDetailPage = () => {
         </div>
 
       </div>
-
+  <ToastContainer />
     </div>
   );
 };

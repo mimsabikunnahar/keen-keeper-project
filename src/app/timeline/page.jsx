@@ -10,6 +10,7 @@ import Image from "next/image";
 const TimeLine =() => {
   const [timeline, setTimeline] = useState([]);
   const [sortingType, setSortingType] = useState("");
+  console.log(sortingType);
   useEffect(() => {
     const loadTimeline = () => {
       const data = JSON.parse(localStorage.getItem("timeline")) || [];
@@ -18,6 +19,10 @@ const TimeLine =() => {
 
     loadTimeline();
   }, []);
+  const filteredTimeline =
+    sortingType === ""
+      ? timeline
+      : timeline.filter(item => item.action === sortingType);
   
 
   return (
@@ -38,7 +43,7 @@ const TimeLine =() => {
       </div>
       <div className=" flex flex-col gap-3 mt-5 rounded-2xl">
         {
-          timeline.map((history, index) => <div key={index}>
+        filteredTimeline.map((history, index) => <div key={index}>
             <div className="bg-white p-5 flex justify-baseline gap-4">
                   <Image
                 src={history.action === "calling" ? call

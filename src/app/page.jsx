@@ -1,4 +1,4 @@
-import FriendCard from "./FriendCard";
+import FriendCard from "./home/FriendCard";
 
 const Home = async () => {
   const res = await fetch("http://localhost:3000/friend.json");
